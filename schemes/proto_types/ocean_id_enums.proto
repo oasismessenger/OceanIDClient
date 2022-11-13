@@ -5,7 +5,5 @@ package Types;
 option go_package = "github.com/oasismessenger/OceanIDClient/schemes/types;";
 
 enum EnumOceanDC {
-  DcAS = 0;
-  DcNA = 8;
-  DcEu = 16;
+  DcA = 0;
 }
