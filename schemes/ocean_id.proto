@@ -7,13 +7,13 @@ option go_package = "schemes/id_service/;idService";
 import "proto_types/ocean_id_enums.proto";
 
 message IDRequest {
-  Types.EnumDC DC = 1;
+  Types.EnumOceanDC DC = 1;
   uint64 worker_id = 2;
   uint64 request_id = 3;
 }
 
 message IDBulkRequest {
-  Types.EnumDC DC = 1;
+  Types.EnumOceanDC DC = 1;
   uint32 worker_id = 2;
   uint64 request_id = 3;
   uint32 bulk_size = 4;
