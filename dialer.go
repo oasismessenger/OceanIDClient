@@ -14,7 +14,7 @@ type Dialer struct {
 	ctx         context.Context
 	MaxPoolSize int
 	MinPoolSize int
-	DcID        types.EnumDC
+	DcID        types.EnumOceanDC
 	WorkerId    uint32
 	Addr        string
 }
