@@ -4,7 +4,7 @@ package idService;
 
 option go_package = "schemes/id_service/;idService";
 
-import "proto_types/enums.proto";
+import "proto_types/ocean_id_enums.proto";
 
 message IDRequest {
   Types.EnumDC DC = 1;
