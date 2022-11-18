@@ -61,6 +61,10 @@ func (d *Dialer) DialWithContext(ctx context.Context) (Client, error) {
 		conn:        conn,
 	}
 
+	if err = p.BulkFetchID(); err != nil {
+		return nil, err
+	}
+
 	p.c = NewCounter(d.MinPoolSize/10, p.BulkFetchID)
 
 	go p.c.Listen()
