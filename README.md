@@ -2,6 +2,8 @@
 
 `golang client for OceanID`
 
+### ⚠ Please _fork_ the repository and modify the `proto_type` in the `schemes`
+
 ### quick start
 
 #### add it to `go.mod` dependencies 
